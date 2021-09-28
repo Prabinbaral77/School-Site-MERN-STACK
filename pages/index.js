@@ -7,7 +7,7 @@ import NoticeBoard from '../components/NoticeBoard'
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Head>
         <title>Shree Ratan Pandey Secondary School.</title>
       </Head>
