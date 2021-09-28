@@ -7,7 +7,7 @@ function Message() {
                 <p className="border-b-4 text-blue-400">Message from Principle</p>
             </div>
             <div className="flex flex-col md:flex-row">
-                <div className="relative h-[300px] min-w-[300px] mx-[170px] mb-4 md:mx-[70px]">
+                <div className="relative h-[300px] min-w-[300px] mx-[90px] mb-4 md:mx-[70px]">
                     <Image src="https://images.unsplash.com/photo-1577975882846-431adc8c2009?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     layout="fill"
                     objectFit="cover"
