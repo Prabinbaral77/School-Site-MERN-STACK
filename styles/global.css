@@ -4,4 +4,7 @@
     .footerIcon {
         @apply cursor-pointer hover:scale-95 hover:text-gray-400
     }
+    .FeedbackInput{
+        @apply border-b-2 w-60 p-2 text-xl focus:outline-none mx-auto hover:bg-gray-300
+    }
 }

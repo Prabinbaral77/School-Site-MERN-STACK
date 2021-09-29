@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { PhoneIcon, ChatAltIcon} from '@heroicons/react/solid'
 
@@ -28,10 +29,10 @@ function Navigations() {
             {/* Navigations List on center side */}
             <div className="">
                 <ul className="flex space-x-1 -ml-20 items-center font-semibold cursor-pointer md:gap-x-1 lg:space-x-[100px]">
-                    <li className="hover:text-gray-700 active:border-b-2">Home</li>
-                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2">Notices</li>
-                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2">Team</li>
-                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2">Contact_us</li>
+                    <li className="hover:text-gray-700 active:border-b-2"><Link href="/">Home</Link></li>
+                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2"><Link href="/notices">Notices</Link></li>
+                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2"><Link href="/team">Team</Link></li>
+                    <li className="hover:text-gray-700 pl-2 md:pl-8 active:border-b-2"><Link href="contactUs">Contact_us</Link></li>
                 </ul>
             </div>
             {/* social site icon */}
