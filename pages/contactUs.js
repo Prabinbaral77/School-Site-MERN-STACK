@@ -18,7 +18,7 @@ function ContactUs() {
                                         layout="fill"
                                         objectFit="contain"/>
                             </div>
-                            <div className="absolute top-4 left-[286px] md:left-[360px] lg:left-[500px] xl:left-[460px] animate-bounce">
+                            <div className="absolute top-4 left-[185px] md:left-[360px] lg:left-[500px] xl:left-[460px] animate-bounce">
                                 <p className=" text-red-500 font-semibold">ratanpandeyschool</p>
                                 <p className="pl-10">📌</p>
                             </div>
