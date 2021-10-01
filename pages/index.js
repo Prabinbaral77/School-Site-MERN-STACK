@@ -5,6 +5,7 @@ import Message from '../components/Message'
 import Navigations from '../components/Navigations'
 import NoticeBoard from '../components/NoticeBoard'
 
+
 export default function Home() {
   return (
     <div className="overflow-hidden">

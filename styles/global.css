@@ -7,4 +7,10 @@
     .FeedbackInput{
         @apply border-b-2 w-60 p-2 text-xl focus:outline-none mx-auto hover:bg-gray-300
     }
+    .InputLabel{
+        @apply text-xl font-semibold text-gray-600
+    }
+    .LoginInput {
+        @apply border-b-4 focus:outline-none text-xl pl-4 bg-gray-200 py-2 rounded-xl hover:bg-gray-300
+    }
 }

@@ -12,6 +12,7 @@ function Footer() {
                     <p className="footerIcon">Photo Gallery</p>
                     <p className="footerIcon">Notices</p>
                     <p className="footerIcon">Contact Us</p>
+                    <p className="footerIcon"><Link href="/login">Admin Login</Link></p>
                 </div>
             </div>
             <div className="font-semibold">
